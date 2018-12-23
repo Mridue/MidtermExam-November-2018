@@ -22,7 +22,7 @@ public class ConnectToMongoDB {
 
     public static MongoDatabase connectToMongoDB() {
         MongoClient mongoClient = new MongoClient();
-        mongoDatabase = mongoClient.getDatabase("students");
+        mongoDatabase = mongoClient.getDatabase("");
         System.out.println("Database Connected");
 
         return mongoDatabase;
@@ -98,10 +98,12 @@ public class ConnectToMongoDB {
     }
 
     public static void main(String[] args){
-        insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
+        connectToMongoDB();
+
+        /*insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
         List<User> user = readUserProfileFromMongoDB();
         for(User person:user){
             System.out.println(person.getStName()+ " "+ person.getStID());
-        }
+        }*/
     }
 }
