@@ -60,7 +60,7 @@ public class UseArrayList {
 
 
 
-        //Read data from database
+
 
         List<String> y = connectToSqlDB.readDataBase("List", "Element");
         for(String st:y){
