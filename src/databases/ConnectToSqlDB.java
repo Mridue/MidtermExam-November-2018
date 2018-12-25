@@ -164,7 +164,7 @@ public class ConnectToSqlDB {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
             ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+ columnName+"` int(20) DEFAULT NULL, PRIMARY KEY (`ID`) );");
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+columnName+"` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`));");
             ps.executeUpdate();
             for(Object ob :list){
                 ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
@@ -180,6 +180,50 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
+    public void insertDataFromArrayListToSqlTableforString(List<Object> list, String tableName, String columnName)
+    {
+        try {
+            connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+columnName+"` varchar(300) DEFAULT NULL,  PRIMARY KEY (`ID`));");
+            ps.executeUpdate();
+            for(Object ob :list){
+                ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
+                ps.setObject(1,ob);
+                ps.executeUpdate();
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+    /*public void insertDataFromArrayListToSqlTable2(List<Object> list, String tableName, String columnName1,String columnName2, String columnName3,String columnName4, String columnName5,String columnName6, String columnName7,String columnName8, String columnName9)
+    {
+        try {
+            connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+ columnName1+"` VARCHAR(255) DEFAULT NULL,`"+ columnName2+"` VARCHAR(255) DEFAULT NULL,`"+ columnName3+"` VARCHAR(255) DEFAULT NULL,`"+ columnName4+"` VARCHAR(255) DEFAULT NULL,`"+ columnName5+"` VARCHAR(255) DEFAULT NULL,`"+ columnName6+"` VARCHAR(255) DEFAULT NULL,`"+ columnName7+"` VARCHAR(255) DEFAULT NULL,`"+ columnName8+"` VARCHAR(255) DEFAULT NULL,`"+ columnName9+"` VARCHAR(255) DEFAULT NULL, PRIMARY KEY (`ID`) );");
+            ps.executeUpdate();
+            for(Object ob :list){
+                ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName1+"," + columnName2 + "," + columnName3 + "," + columnName4 + ", " + columnName5 + "," + columnName6 + "," + columnName7 + "," + columnName8 + "," + columnName9 + ",) VALUES(?)");
+                ps.setObject(1,ob);
+                ps.executeUpdate();
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }*/
 
     public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException{
         List<User> list = new ArrayList<>();
