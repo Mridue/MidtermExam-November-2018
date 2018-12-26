@@ -9,7 +9,7 @@ public class UnitTestingEmployeeInfo {
 
         try {
             Assert.assertEquals(100, 100);
-        } catch (Exception e) {
+        } catch (AssertionError as) {
             System.out.println("Test Failed");
         }
 
