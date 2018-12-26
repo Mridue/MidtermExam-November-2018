@@ -5,6 +5,8 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import design.Employee;
+import design.EmployeeInfo;
 import org.bson.Document;
 import parser.Student;
 
@@ -38,6 +40,7 @@ public class ConnectToMongoDB {
         return profile + " has been registered";
     }
 
+
     public String insertIntoMongoDB(List<Student> student,String profileName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(profileName);
@@ -53,6 +56,43 @@ public class ConnectToMongoDB {
             collection.insertOne(document);
         }
         return  "Student has been registered";
+    }
+    public String insertIntoMongoDBforemp(List<EmployeeInfo> emp, String profileName){
+        MongoDatabase mongoDatabase = connectToMongoDB();
+        MongoCollection myCollection = mongoDatabase.getCollection(profileName);
+        boolean collectionExists = mongoDatabase.listCollectionNames()
+                .into(new ArrayList<String>()).contains(profileName);
+        if(collectionExists) {
+            myCollection.drop();
+        }
+        for(int i=0; i<emp.size(); i++){
+            MongoCollection<Document> collection = mongoDatabase.getCollection(profileName);
+            Document document = new Document().append("name", emp.get(i).getName()).append("Id",
+                    emp.get(i).getEmployeeID()).append("age",emp.get(i).getEmployeeAge());
+            collection.insertOne(document);
+        }
+        return  "Employee has been registered";
+    }
+    public List<Student> readStudentListFromMongoDB(String profileName){
+        List<Student> list = new ArrayList<Student>();
+        Student student = new Student();
+        MongoDatabase mongoDatabase = connectToMongoDB();
+        MongoCollection<Document> collection = mongoDatabase.getCollection(profileName);
+        BasicDBObject basicDBObject = new BasicDBObject();
+        FindIterable<Document> iterable = collection.find(basicDBObject);
+        for(Document doc:iterable){
+            String firstName = (String)doc.get("firstName");
+            student.setFirstName(firstName);
+            String lastName = (String)doc.get("lastName");
+            student.setLastName(lastName);
+            String score = (String)doc.get("score");
+            student.setScore(score);
+            String id = (String) doc.get("id");
+            student.setId(id);
+            student = new Student(student.getFirstName(),student.getLastName(),student.getScore(),student.getId());
+            list.add(student);
+        }
+        return list;
     }
 
     public  List<User> readUserProfileFromMongoDB(){
@@ -75,24 +115,23 @@ public class ConnectToMongoDB {
         return list;
     }
 
-    public  List<Student> readStudentListFromMongoDB(String profileName){
-        List<Student> list = new ArrayList<Student>();
-        Student student = new Student();
+    public  List<EmployeeInfo> readEmployeeListFromMongoDB(String profileName){
+        List<EmployeeInfo> list = new ArrayList<EmployeeInfo>();
+        EmployeeInfo emp = new EmployeeInfo();
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection<Document> collection = mongoDatabase.getCollection(profileName);
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);
         for(Document doc:iterable){
-            String firstName = (String)doc.get("firstName");
-            student.setFirstName(firstName);
-            String lastName = (String)doc.get("lastName");
-            student.setLastName(lastName);
-            String score = (String)doc.get("score");
-            student.setScore(score);
-            String id = (String) doc.get("id");
-            student.setId(id);
-            student = new Student(student.getFirstName(),student.getLastName(),student.getScore(),student.getId());
-            list.add(student);
+            String Name = (String)doc.get("name");
+            emp.setName(Name);
+            int  id = (Integer) doc.get("id");
+            emp.setEmployeeID(id);
+            int age = (Integer) doc.get("age");
+            emp.setEmployeeAge(age);
+
+            emp = new EmployeeInfo(emp.getName(),emp.getEmployeeID(), emp.getEmployeeAge());
+            list.add(emp);
         }
         return list;
     }
