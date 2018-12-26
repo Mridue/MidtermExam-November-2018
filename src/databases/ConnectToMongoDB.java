@@ -7,6 +7,8 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import design.Employee;
 import design.EmployeeInfo;
+import json.parser.CnnAPI;
+import json.parser.CnnNews;
 import org.bson.Document;
 import parser.Student;
 
@@ -135,6 +137,7 @@ public class ConnectToMongoDB {
         }
         return list;
     }
+
 
     public static void main(String[] args){
         ConnectToMongoDB mon=new ConnectToMongoDB();
