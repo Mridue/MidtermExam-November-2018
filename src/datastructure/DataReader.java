@@ -31,6 +31,7 @@ public class DataReader {
         LinkedList<String> list = new LinkedList<>();
         Stack<String> stk = new Stack<>();
        // ArrayList arr=new ArrayList();
+
         String str;
         try {
             fr = new FileReader("C:/Users/arifq/Desktop/Midterm exam/MidtermNovember2018/src/data/self-driving-car");

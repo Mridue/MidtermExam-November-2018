@@ -1,5 +1,7 @@
 package math.problems;
 
+import databases.ConnectToSqlDB;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,24 +13,27 @@ public class Pattern {
 		 *
 		 *
 		 */
-		int c = 1, x = 0;
 		int n = 100;
-		List<String> storePattern = new ArrayList<String>();
+		System.out.println(arrayList(n));
+	}
+
+	public static ArrayList arrayList(int n) {
+		int count = 1, j = 0;
+
+		ArrayList<Integer> ar = new ArrayList<>();
+
 		int[] array1 = new int[40];
 
 		while (n > 0) {
-			for (int y = 0; y < 10; y++) {
-				System.out.print(" " + n);
-				array1[y] = n;
-				n -= c;
-				y++;
-
+			for (int i = 0; i < 10; i++) {
+				ar.add(n);
+				array1[j] = n;
+				n -= count;
+				j++;
 			}
-			c++;
+			count++;
 		}
-
-		
-
-
+		return ar;
 	}
+
 }

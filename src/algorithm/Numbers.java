@@ -22,7 +22,7 @@ public class Numbers {
 
     public static void main(String[] args) throws Exception {
 
-        int[] num = new int[100];
+        int[] num = new int[10000];
 
         storeRandomNumbers(num);
 
@@ -141,9 +141,9 @@ public class Numbers {
 
 //Selection Sort take: 407411 milli sec
 
-//Insertion Sort take: 174962 milli sec
+//Insertion Sort take: 374962 milli sec
 
-//Bubble Sort take: 369469 milli sec
+//Bubble Sort take: 969469 milli sec
 
 //Merge Sort take: 39 milli sec
 
@@ -155,7 +155,7 @@ public class Numbers {
 
 //Shell Sort take: 47 milli sec
 
-        //Slowest algorithm is Selection sort
+        //Slowest algorithm is Bubble sort
         //Fastest algorithm is Merge sort
 
 

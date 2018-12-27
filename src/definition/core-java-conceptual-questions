@@ -365,8 +365,8 @@ Heap memory has three major areas
  2. Old Generation (instances promoted from S1 to tenured)
  3. Permanent Generation (contains meta information like class, method detail)
 
-Garbage Connection:Java garbage collection is an automatic process to manage the runtime memory used by programs.
-Garbage connection of JAVA application is done by Garbage collector.
+Garbage Collection:Java garbage collection is an automatic process to manage the runtime memory used by programs.
+Garbage collection of JAVA application is done by Garbage collector.
 A garbage collector performs automatic dynamic memory management through the following operations:
  1. It allocates from and gives back memory to the operating system.
  2. Allocate memory to the application as it requests it.

@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31b5026c-d3cc-4ba3-9ce7-c43334c5b859" name="Default" comment="&quot;Json Parser done with MySQL Data Manupulation&quot;">
-      <change afterPath="$PROJECT_DIR$/src/design/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/parser/CnnNews.java" afterDir="false" />
+    <list default="true" id="31b5026c-d3cc-4ba3-9ce7-c43334c5b859" name="Default" comment="&quot;Algorithm  done with MySQL Datadase Manupulation&quot;">
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_bubble_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_bucket_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_cnn_news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_heap_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_honda.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_insertionsort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_list.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_listofprime.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_merge_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_nissan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_quick_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_selection_sort.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_shell_sort_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tab8.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_tbl_lowestnumber.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_toyota.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/UnitTestSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/UnitTestSorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/UnitTestingEmployeeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/UnitTestingEmployeeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/algorithm/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/databases/ConnectToSqlDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/databases/UnitTestConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/databases/UnitTestConnectDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/datastructure/UseMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/datastructure/UseMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,92 +56,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="270" column="34" lean-forward="true" selection-start-line="270" selection-start-column="34" selection-end-line="270" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/parser/CnnAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="158" column="41" lean-forward="true" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="157" column="16" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-              <folding>
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#5544#5545#0" expanded="true" />
-                <element signature="e#5568#5569#0" expanded="true" />
-                <element signature="e#5618#5619#0" expanded="true" />
-                <element signature="e#5645#5646#0" expanded="true" />
-                <element signature="e#5754#5755#0" expanded="true" />
-                <element signature="e#5778#5779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-956">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4884">
-              <caret line="300" column="5" lean-forward="true" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,12 +75,7 @@
         <option value="$PROJECT_DIR$/src/json/parser/JsonReaderHelper.java" />
         <option value="$PROJECT_DIR$/src/secret.properties" />
         <option value="$PROJECT_DIR$/src/math/problems/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/math/problems/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/math/problems/MakePyramid.java" />
-        <option value="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" />
-        <option value="$PROJECT_DIR$/src/math/problems/LowestNumber.java" />
-        <option value="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" />
-        <option value="$PROJECT_DIR$/src/math/problems/Pattern.java" />
         <option value="$PROJECT_DIR$/src/datastructure/CollectionView.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
@@ -145,20 +89,13 @@
         <option value="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" />
         <option value="$PROJECT_DIR$/src/string/problems/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" />
-        <option value="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" />
         <option value="$PROJECT_DIR$/src/string/problems/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
-        <option value="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" />
-        <option value="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
         <option value="$PROJECT_DIR$/src/parser/XmlReader.java" />
         <option value="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" />
-        <option value="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
         <option value="$PROJECT_DIR$/src/design/Employee.java" />
         <option value="$PROJECT_DIR$/src/design/Location.java" />
         <option value="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
-        <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
         <option value="$PROJECT_DIR$/src/definition/data-structure-questions" />
         <option value="$PROJECT_DIR$/src/json/parser/JsonNewsReader.java" />
         <option value="$PROJECT_DIR$/src/json/parser/NewsReader.java" />
@@ -167,8 +104,21 @@
         <option value="$PROJECT_DIR$/src/json/parser/CnnNews.java" />
         <option value="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" />
+        <option value="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" />
+        <option value="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
+        <option value="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Numbers.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/LowestNumber.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/DataReader.java" />
+        <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
+        <option value="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" />
       </list>
     </option>
   </component>
@@ -198,18 +148,6 @@
             </path>
             <path>
               <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -220,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545858109944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545872359753" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -229,6 +167,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arifq\Desktop\Midterm exam\MidtermNovember2018\Retrieved_Data_From_DataBases" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -245,20 +184,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.UnitTestSorting">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CnnAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.parser.CnnAPI" />
+    <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.LowestNumber" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.parser.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,13 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,8 +219,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Numbers" />
+    <configuration name="UnitTestSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.UnitTestSorting" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -294,13 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessStudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parser.ProcessStudentInfo" />
+    <configuration name="UnitTestingMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parser.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,13 +247,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingEmployeeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
+    <configuration name="UnitTestingStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +291,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProcessStudentInfo" />
-      <item itemvalue="Application.FortuneEmployee" />
-      <item itemvalue="Application.UnitTestingEmployeeInfo" />
-      <item itemvalue="Application.CnnAPI" />
-      <item itemvalue="Application.Numbers" />
+      <item itemvalue="Application.LowestNumber" />
+      <item itemvalue="Application.UnitTestingMath" />
+      <item itemvalue="Application.UnitTestingStringProblem" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.UnitTestSorting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.CnnAPI" />
-        <item itemvalue="Application.UnitTestingEmployeeInfo" />
-        <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.ProcessStudentInfo" />
+        <item itemvalue="Application.UnitTestSorting" />
+        <item itemvalue="Application.UnitTestingMath" />
+        <item itemvalue="Application.UnitTestingStringProblem" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.LowestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -554,12 +493,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545844600839</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="&quot;Algorithm  done with MySQL Datadase Manupulation&quot;">
+      <created>1545858191639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1545858191639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="143" y="29" width="1400" height="784" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -570,7 +515,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2400636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,7 +523,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -588,7 +533,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.3295302" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.32910448" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16040269" />
@@ -646,12 +591,10 @@
     <MESSAGE value="&quot;Design Package done with Unit Testing and Database Connectivity&quot;" />
     <MESSAGE value="&quot;Definitions Done&quot;" />
     <MESSAGE value="&quot;Json Parser done with MySQL Data Manupulation&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Json Parser done with MySQL Data Manupulation&quot;" />
+    <MESSAGE value="&quot;Algorithm  done with MySQL Datadase Manupulation&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Algorithm  done with MySQL Datadase Manupulation&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/parser/selenium.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/MakePyramid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -659,45 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/UnitTestingMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,64 +619,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/parser/News.java" />
-    <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/parser/JsonCnnApiReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/math/problems/LowestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/parser/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -777,13 +629,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#764#781#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -798,93 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codelab/status/CsvReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codelab/status/Trainee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/databases/UnitTestConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -909,38 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1158">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/definition/data-structure-questions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="464" lean-forward="true" selection-start-line="464" selection-end-line="464" />
         </state>
       </provider>
     </entry>
@@ -962,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/parser/JsonNewsReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -979,58 +706,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
+    <entry file="file://$PROJECT_DIR$/src/databases/UnitTestConnectDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="270" column="34" lean-forward="true" selection-start-line="270" selection-start-column="34" selection-end-line="270" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4884">
-          <caret line="300" column="5" lean-forward="true" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/parser/CnnNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/parser/CnnAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        <state relative-caret-position="418">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codelab/status/CsvReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1198">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3023">
+          <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6424">
+          <caret line="301" column="1" lean-forward="true" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="-2422">
           <caret line="157" column="16" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
           <folding>
             <element signature="e#1669#1670#0" expanded="true" />
@@ -1047,9 +756,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/parser/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-956">
+        <state relative-caret-position="-846">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1057,13 +784,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
+    <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="158" column="41" lean-forward="true" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+        <state relative-caret-position="-90">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/parser/CnnNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3454">
+          <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Retrieved_Data_From_DataBases/All Data From MYSQL/arif_database_car.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/parser/CnnAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2210">
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/LowestNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1322">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/UnitTestingMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4422">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/definition/data-structure-questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
         </state>
       </provider>
     </entry>

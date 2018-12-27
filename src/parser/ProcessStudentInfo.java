@@ -83,10 +83,12 @@ public class ProcessStudentInfo {
 
             //Store Qtp data into Qtp table in Database
             connectToMongoDB.insertIntoMongoDB(seleniumStudents, "qtp");
-            //connectToSqlDB.insertDataFromArrayListToMySql(seleniumStudents, "qtp","studentList");
+
 
             //Store Selenium data into Selenium table in Database
             connectToMongoDB.insertIntoMongoDB(qtpStudents, "selenium");
+
+
             //Retrieve Qtp students from Database
             List<Student> stList = connectToMongoDB.readStudentListFromMongoDB("qtp");
             for (Student st : stList) {
@@ -94,6 +96,7 @@ public class ProcessStudentInfo {
             }
 
             //Retrieve Selenium students from Database
+
 
             List<Student> st1List = connectToMongoDB.readStudentListFromMongoDB("selenium");
             for (Student st : stList) {

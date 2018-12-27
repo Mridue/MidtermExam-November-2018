@@ -20,22 +20,31 @@ public class UseMap {
         honda.add("crv");
         honda.add("accord");
         List l = honda;
+
         con.insertDataFromArrayListToSqlTableforString(l, "Honda", "Col");
+
         System.out.println(con.readDataBase("Honda", "Col"));
+
         List<String> toyota = new ArrayList<String>();
         toyota.add("camry");
         toyota.add("corolla");
         toyota.add("rav4");
         List l1 = toyota;
+
         con.insertDataFromArrayListToSqlTableforString(l1, "Toyota", "Col");
+
         System.out.println(con.readDataBase("Toyota", "Col"));
+
         List<String> nissan = new ArrayList<String>();
         nissan.add("altima");
         nissan.add("maxima");
         nissan.add("sentra");
         List l2 = nissan;
+
         con.insertDataFromArrayListToSqlTableforString(l2, "Nissan", "Col");
+
         System.out.println(con.readDataBase("Nissan", "Col"));
+
         Map<String, List<String>> map = new HashMap<String, List<String>>();
 
         map.put("Honda", honda);
